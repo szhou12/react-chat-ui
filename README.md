@@ -28,6 +28,8 @@ npm install @emotion/react @emotion/styled framer-motion
 
 npm install react-hook-form
 npm install @tanstack/react-query
+
+npm install react-icons
 ```
 
 ## Tailwind Setup

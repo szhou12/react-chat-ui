@@ -8,6 +8,10 @@ import { useChat } from './hooks/useChat'
 // V2 - Tailwind UI
 import ConversationUI from './components/ConversationUI'
 
+import BentoReviewCard from './components/BentoReviewCard'
+
+const queryClient = new QueryClient()
+
 function App() {
 
   /**
@@ -21,9 +25,13 @@ function App() {
   // )
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <ConversationUI />
-    </QueryClientProvider>
+    // <QueryClientProvider client={queryClient}>
+    //   <ConversationUI />
+    // </QueryClientProvider>
+    <>
+      <BentoReviewCard />
+    </>
+    
   )
 
 }
