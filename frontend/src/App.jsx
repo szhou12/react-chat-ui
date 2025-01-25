@@ -9,6 +9,10 @@ import { useChat } from './hooks/useChat'
 import ConversationUI from './components/ConversationUI'
 
 import BentoReviewCard from './components/BentoReviewCard'
+import RevealAnimation from './components/RevealAnimation'
+import EncryptedButton from "./components/EncryptedButton"
+
+
 
 const queryClient = new QueryClient()
 
@@ -28,9 +32,15 @@ function App() {
     // <QueryClientProvider client={queryClient}>
     //   <ConversationUI />
     // </QueryClientProvider>
-    <>
-      <BentoReviewCard />
-    </>
+
+    // <>
+    //   <BentoReviewCard />
+    //   {/* <RevealAnimation /> */}
+    // </>
+
+    <div>
+      <EncryptedButton plainText="Encrypt data" />
+    </div>
     
   )
 
