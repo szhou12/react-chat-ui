@@ -40,7 +40,7 @@ function HeroRevealAnimation({ children, width = 'fit-content' }) {
                 }}
                 initial="hidden"
                 animate={slideControls}
-                transition={{ duration: 0.7, ease: 'easeIn' }}
+                transition={{ duration: 0.6, ease: 'easeIn' }}
                 style={{
                     position: 'absolute',
                     top: 4,
