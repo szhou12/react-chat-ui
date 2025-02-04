@@ -37,17 +37,17 @@ function App() {
     //   <ConversationUI />
     // </QueryClientProvider>
 
-    // <ChakraProvider>
-    //   <div>
-    //     <BentoReviewCard />
-    //   </div>
-    // </ChakraProvider>
-
     <ChakraProvider>
       <div>
-        <RevealAnimation />
+        <BentoReviewCard />
       </div>
     </ChakraProvider>
+
+    // <ChakraProvider>
+    //   <div>
+    //     <RevealAnimation />
+    //   </div>
+    // </ChakraProvider>
 
     // <ChakraProvider>
     //   <div>

@@ -18,7 +18,7 @@ const reviews = [
     {
         clientName: "John Doe",
         clientImage: 'https://api.dicebear.com/9.x/notionists-neutral/svg?seed=johndoe',
-        review: "I've been using Chakra Framer for the past few weeks...",
+        review: "I’ve been using Chakra Framer for the past few weeks, and I’m really impressed with its flexibility and ease of use. The integration with framer motion makes animations seamless. Whether you’re building a landing page or an entire website, this kit has all the essentials.",
     },
     {
         clientName: 'Arjun Patel',
